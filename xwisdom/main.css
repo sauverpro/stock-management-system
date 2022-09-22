@@ -1,0 +1,89 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: arial;
+	box-sizing: border-box;
+	text-decoration: none;	
+}
+.links{
+	position: relative;
+	padding: 2%;
+	background-color: #008899;
+	text-align: center;
+	align-items: center;
+
+}
+.links a{
+	margin: 4%;
+	color: #ffffff;
+	font-size: 20px;
+	justify-content: space-between;
+
+}
+h1{
+margin-left: 20%; 
+margin-top: 10%;
+color: #008099; 
+}
+p{
+	width: 80%;
+	margin-top: 5%;
+	margin-left: 7%;
+	text-align: center;
+	align-items: center;
+
+}
+fieldset{
+	width: 30%;
+	position: absolute;
+	padding: 7px;
+	margin-top: 10%;
+	margin-left: 34%;
+	border-radius: 10px;
+ border:3px solid #889988;
+ box-shadow: 4px 7px 7px 6px solid #00880099;
+}
+fieldset form{
+	width: 100%;
+	padding: 4px;
+}
+fieldset form input[type=text],[type=date]{
+	width: 95%;
+	margin: 10px;
+	padding: 4px;
+	border: none;
+	font-size: 17px;
+	color: #008899;
+	border-bottom: 2px solid #008899;
+	outline: none;
+}
+fieldset form input[type=submit]{
+	width: 30%;
+	float: right;
+	margin: 10px;
+	background-color: #008899;
+	padding: 10px;
+	color: #ffffff;
+	font-size: 20px;
+		border-radius: 5px;
+
+}
+fieldset h2{
+	color: #008899;
+	font-size: 30px;
+}
+table{
+	width: 89%;
+	padding: 10px;	
+}
+@media print {
+	.links{
+		display: none;
+	}
+	a{
+		display: none;
+	}
+	button{
+		display: none;
+	}
+}
